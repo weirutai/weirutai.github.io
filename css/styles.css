@@ -7838,7 +7838,14 @@ textarea.form-control-lg {
 
 .text-left {
   text-align:left !important;
+  margin-top: 5%;
   margin-right: 50%;
+}
+
+.intro {
+  text-align:left;
+  margin-top: 10%;
+  margin:0px auto;
 }
 
 .text-decoration-none {
