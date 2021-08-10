@@ -52,3 +52,5 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.querySelector('.walk').setAttribute('class', 'walk end')
