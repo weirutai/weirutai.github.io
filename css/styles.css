@@ -11763,6 +11763,7 @@ body {
 
 .glow-on-hover:active:after {
   background: transparent;
+  
 }
 
 .glow-on-hover:hover:before {
@@ -11770,6 +11771,7 @@ body {
 }
 
 .glow-on-hover:after {
+  color: black;
   z-index: -1;
   content: '';
   position: absolute;
