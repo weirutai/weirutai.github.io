@@ -76,3 +76,17 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+//close cv
+document.getElementById('popup').addEventListener('onClick', function(){
+   //document.getElementById("try").display= "none"; 
+   console.log('hi');
+});
+
+/*
+$(document).click((event) => {
+    if (!$(event.target).closest('#close').length) {
+      // the click occured outside '#element'
+      console.log('hi');
+    }        
+  });
+  */

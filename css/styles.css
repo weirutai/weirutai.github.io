@@ -11813,7 +11813,7 @@ body {
 }
 
 /*pop out*/
-/*
+
 .box {
   width: 40%;
   margin: 0 auto;
@@ -11823,7 +11823,7 @@ body {
   border-radius: 20px/50px;
   background-clip: padding-box;
   text-align: center;
-}*/
+}
 
 .button {
   font-size: 1em;
@@ -11856,6 +11856,11 @@ body {
   opacity: 1;
 }
 
+.popup1 {
+  margin-top: 50%;
+  z-index: 99;
+}
+
 .popup {
   margin: 70px auto;
   padding: 20px;
@@ -11873,15 +11878,16 @@ body {
   font-family: Tahoma, Arial, sans-serif;
 }
 .popup .close {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 30px;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #333; 
 }
+
 .popup .close:hover {
   color: #0b8365;
 }
@@ -11900,6 +11906,9 @@ body {
 }
 
 /*CV content*/
+.box {
+  z-index: 3;
+}
 
 .cvtitle{
   padding-left: 12%;
