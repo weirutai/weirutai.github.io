@@ -11879,7 +11879,7 @@ body {
   font-family: Tahoma, Arial, sans-serif;
 }
 .popup .close {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 30px;
   transition: all 200ms;
