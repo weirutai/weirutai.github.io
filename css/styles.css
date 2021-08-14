@@ -11813,7 +11813,7 @@ body {
 }
 
 /*pop out*/
-
+/*
 .box {
   width: 40%;
   margin: 0 auto;
@@ -11824,6 +11824,7 @@ body {
   background-clip: padding-box;
   text-align: center;
 }
+*/
 
 .button {
   font-size: 1em;
