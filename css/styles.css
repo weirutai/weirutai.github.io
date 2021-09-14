@@ -2847,8 +2847,10 @@ textarea.form-control-lg {
 .image-me {
   display: block;
   margin-left: 60px;
+  margin-right: 35px;
   height: auto;
   max-width: 50%;
+  
   
 }
 
@@ -2881,7 +2883,7 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+/**
 #me {
   padding-right: 20px;
   padding-top: 20px;
@@ -2896,7 +2898,7 @@ textarea.form-control-lg {
   outline: none;
   width: 0;
   height: 0;
-}
+}**/
 
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #67c29c;
