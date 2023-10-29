@@ -2868,6 +2868,20 @@ textarea.form-control-lg {
   background-color: #1b1919;
 }
 
+@media (max-width: 790px){
+
+  .container-me {
+    display: none;
+  }
+  /*<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+  
+</nav>
+  .navbar .navbar-expand-lg .navbar-light .fixed-top .navbar-shrink #mainNav{
+
+  }
+*/
+}
+
 .container-me:hover .overlay-me {
   opacity: 1;
 }
