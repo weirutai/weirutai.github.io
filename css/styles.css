@@ -2874,13 +2874,8 @@ textarea.form-control-lg {
     display: none;
   }
   
-  .about-section .popup {
+  .popup {
     width: 95%;
-    padding-top: 200px;
-  }
-
-  .about-section .popup .cvtitle {
-    padding-top: 1000px;
   }
 
 }
@@ -11946,6 +11941,7 @@ body {
 
 .popup {
   margin: 70px auto;
+  margin-top: 150px;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
@@ -11962,9 +11958,10 @@ body {
 }
 
 .popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
+  position: fixed;
+  background-color: #fff;
+  top: 23%;
+  right: 15%;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
@@ -11997,6 +11994,8 @@ body {
 .cvtitle{
   padding-left: 12%;
 }
+
+
 .intro{
   padding-left: 12%;
   padding-right: 12%;
