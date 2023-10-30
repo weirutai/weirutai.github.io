@@ -2873,13 +2873,16 @@ textarea.form-control-lg {
   .container-me {
     display: none;
   }
-  /*<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
   
-</nav>
-  .navbar .navbar-expand-lg .navbar-light .fixed-top .navbar-shrink #mainNav{
-
+  .about-section .popup {
+    width: 95%;
+    padding-top: 200px;
   }
-*/
+
+  .about-section .popup .cvtitle {
+    padding-top: 1000px;
+  }
+
 }
 
 .container-me:hover .overlay-me {
