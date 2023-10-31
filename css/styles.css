@@ -11948,7 +11948,6 @@ body {
 
 #popup1 {
   z-index: 9999;
- 
 }
 
 .popup {
@@ -11984,7 +11983,6 @@ body {
   color: #0b8365;
 }
 .popup .content {
-  
   max-height: 30%;
   overflow: auto;
   height: 450px;
