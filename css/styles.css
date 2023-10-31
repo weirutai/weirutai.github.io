@@ -2874,8 +2874,8 @@ textarea.form-control-lg {
     display: none;
   }
   
-  .popup {
-    width: 95%;
+  #popup {
+    width: 80%;
   }
 
 }
@@ -11996,7 +11996,7 @@ body {
     width: 70%;
   }
   .popup{
-    width: 70%;
+    width: 90%;
   }
 }
 
