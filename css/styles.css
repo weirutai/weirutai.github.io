@@ -11855,7 +11855,6 @@ body {
 
 .glow-on-hover:active:after {
   background: transparent;
-  
 }
 
 .glow-on-hover:hover:before {
@@ -11950,6 +11949,7 @@ body {
 
 #popup1 {
   z-index: 9999;
+ 
 }
 
 .popup {
@@ -11972,7 +11972,7 @@ body {
 .popup .close {
   position: fixed;
   background-color: #fff;
-  top: 23%;
+  top: 20%;
   right: 15%;
   transition: all 200ms;
   font-size: 30px;
@@ -11985,8 +11985,10 @@ body {
   color: #0b8365;
 }
 .popup .content {
+  
   max-height: 30%;
   overflow: auto;
+  height: 450px;
 }
 
 @media screen and (max-width: 700px){
