@@ -413,8 +413,10 @@ As their unique selling point they want to focus especially on shared housing cl
                         -->
                         <h4 class="text-white mb-5">Feel free to contact me via email or check out my connect.</h4>
                         
-                        <div class="walk"><img src="assets/walk.gif" height="40"></div>
-                        <button class="glow-on-hover mb-5-contact" type="button">Long press on the green rabbit :D</button>
+                        <button onmousedown="holdDown()" onmouseup="holdUp()" class="glow-on-hover mb-5-contact swim" type="button" id="clickMe" onclick="Go();">長按我，讓兔子游泳
+                            <div class="walk" id="moveMe" type="button" onclick="javascript:alert('hihi');"><img src="assets/walk.gif" height="40"></div>
+                        </button>
+                    
                     </div>
                 </div>
             </div>

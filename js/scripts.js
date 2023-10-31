@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-document.querySelector('.walk').setAttribute('class', 'walk end')
+
 
 //go to top
 
@@ -76,17 +76,65 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-//close cv
-document.getElementById('popup').addEventListener('onClick', function(){
-   //document.getElementById("try").display= "none"; 
-   console.log('hi');
-});
+
+//make rabbit swim
+
+document.querySelector('.walk').setAttribute('class', 'walk end')
 
 /*
-$(document).click((event) => {
-    if (!$(event.target).closest('#close').length) {
-      // the click occured outside '#element'
-      console.log('hi');
-    }        
-  });
-  */
+//申明全局變數
+var timeStart, timeEnd, time;
+
+//獲取此刻時間
+function getTimeNow() {
+    var now = new Date();
+    return now.getTime();
+}
+
+//滑鼠按下時觸發
+function holdDown() {
+    //獲取滑鼠按下時的時間
+    timeStart = getTimeNow();
+
+    //setInterval會每100毫秒執行一次，也就是每100毫秒獲取一次時間
+    time = setInterval(function () {
+        timeEnd = getTimeNow();
+
+        //如果此時檢測到的時間與第一次獲取的時間差有1000毫秒
+        if (timeEnd - timeStart > 1000) {
+            //便不再繼續重復此函數 （clearInterval取消周期性執行）
+            clearInterval(time);
+            //字體變紅
+            var moveMe = document.getElementById("moveMe");
+            moveMe.setAttribute('class', 'walk end');
+        }
+    }, 100);
+}
+function holdUp() {
+    //如果按下時間不到1000毫秒便彈起，
+    clearInterval(time);
+}
+
+
+
+
+let moveMe = document.getElementById("moveMe");
+let clickMe = document.getElementById("clickMe");
+function Go(){
+    moveMe.onclick();
+}
+
+*/
+
+
+
+/*
+var button = document.querySelector(".swim");
+button.addEventListener(
+  "click",
+  function () {
+    alert("HELLO WORLD!");
+  },
+  false
+);
+*/
